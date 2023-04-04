@@ -1,0 +1,59 @@
+
+#header{
+    background-color: rgb(169, 195, 153);
+    text-align: center;
+    padding: 50px auto;
+}
+h1{
+    display: none; /*표시 : 안함 */
+}
+
+#header h2{
+    color: white;
+    font-size: 50px;
+}
+#header h2:first-letter{ /*첫 글자에 대해서*/
+    font-size: 70px;
+}
+
+#header p{
+    color:white;
+    font-size:30px;
+    margin: 30px;
+}
+
+#menu{
+    background-color: #3D7158;
+    padding: 15px 0;
+    text-align: center;
+}
+#menu a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display:flex;
+    max-width: 1440px;
+    max-height: 2000px;
+    margin: 50px auto;
+}
+.main #content{
+    flex: 6; /* 비율 : 전체에서 4정도의 공간비율*/
+    background-color: salmon;
+}
+.main #sub{
+    flex: 4;
+    background-color: lightyellow;
+}
+
+footer{
+    background-color: #3D7158;
+    padding: 50px;
+    color: white;
+}
+
+.footer-wrap{
+    
+}
