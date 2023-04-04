@@ -1,4 +1,15 @@
     깃 - 작업이력 추적, 관리하는 프로그램
+    
+    저장소 - 3가지 명칭/구분하기
+    
+    1) 로컬 저장소 : working tree (작업중인 폴더, git init 폴더, 저장장치 HDD/SSD)
+    2) 스테이지(stage area)    : git add 하면, 추적,관리할 파일/폴더 명단이 잠시 머무르는 메모리상 저장공간
+    3) 원격 저장소 : 스테이지에 있던 파일,폴더를 저장하는 원격의 github 내에 가상의 cloud 저장소 (저장장치 HDD/SSD)
+    
+    U : Untracked / 추적,관리중이지 않는 파일의 상태
+    M : Modified / 추적, 관리중인 파일이 이후에 변경된 상태
+    A : Added   / 추적,관리중인 파일로 등록된 상태
+    D : Deleted / 추적,관리중인 파일이 삭제된 상태
 
     I. 로컬 ==> 원격 저장소 보내기 PART
     
@@ -49,7 +60,12 @@
            git clone 저장소 주소 .    [ENTER] : 현재 위치에 그대로 복제
            git clone --branch 브랜치명 저장소 [.] : 특정 브랜치만 복제
 
+    ※ 브랜치명 변경 명령
 
+        master ---> main
+
+       $>   git branch -M main     (현재 master일때, main으로 바꾼다) / Move, 강제성(중복된 브랜치가 있다면? )
+                                    -m              : 강제성 x (같은 브랜치가 있다면 중단)
         
 
 
